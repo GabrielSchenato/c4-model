@@ -3,7 +3,9 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 title "Digital Wallet"
+
 Person(client, "Client", "Digital Wallet User")
+
 System(wallet, "Digital Wallet System", "FC Digital Wallet")
 
 System_Ext(secret_manager, "AWS Secrets Manager", "Credentials Manager")
